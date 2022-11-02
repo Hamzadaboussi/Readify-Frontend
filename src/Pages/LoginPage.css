@@ -1,0 +1,112 @@
+.container-log{
+    border-radius: 0;
+    height: 100%;
+    border-color: #282c34;
+    background-color:#703056;
+    position:fixed;
+    width:100%;
+   
+    overflow:scroll;
+}
+.loginpage-form-container{
+    
+    align-items: center;
+    justify-content: center;
+  margin-bottom: 70px;
+    height:100%;
+    width:100%;
+    border-radius: 4rem !important;
+    border:#fff;
+    margin-left: 550px;
+    margin-top: 100px;
+
+}
+
+.greeting{font-style:normal;font-weight:700;font-size:18px;line-height:24px;text-align:center;margin-bottom:20px;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;max-width:350px}
+.genres .modal-content{width:696px;height:652px;padding:0;border-color:transparent;-webkit-box-shadow:0 1px 10px 0 rgba(34,34,34,.08),0 4px 5px 0 rgba(34,34,34,.1);box-shadow:0 1px 10px 0 rgba(34,34,34,.08),0 4px 5px 0 rgba(34,34,34,.1)}
+.genres{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow-y:scroll}
+.prompt{margin-bottom:24px}
+.genre-tile .genre-info{height:100%;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;border-radius:4px;background-size:45%;background-repeat:no-repeat;background-position:right}
+.genre-tile{width:190px;height:72px;margin:0;background:#fafafa;-webkit-box-shadow:0 1px 7px rgba(34,34,34,.08),0 3px 3px rgba(34,34,34,.1);box-shadow:0 1px 7px rgba(34,34,34,.08),0 3px 3px rgba(34,34,34,.1);border-radius:4px;cursor:pointer;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;position:relative}
+.overlay{display:inline-block;height:100%;width:100%;background-color:#6f6f6f;opacity:0;-webkit-transition:opacity .3s ease-in-out;transition:opacity .3s ease-in-out;position:absolute;top:0;left:0;}
+.hidden{display:none!important;visibility:hidden!important;}
+
+.selected-icon{background-color:#703056;z-index:3;position:absolute;height:24px;width:24px;border-radius:50%;-ms-flex-item-align:end;align-self:flex-end;margin:-25px 0 0 -4px}
+.selected-iconhidden{display:none!important;visibility:hidden!important;
+    }
+
+.loginpage-form-container form{
+    background:#fff;
+    border:var(--border);
+    width:40rem;
+    padding:2rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 4rem;
+    border-color: #fff;
+}
+
+.loginpage-form-container form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color:var(--black);
+    text-align: center;
+}
+
+.loginpage-form-container form span{
+    display: block;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.loginpage-form-container form .box{
+    width: 100%;
+    margin:.7rem 0;
+    font-size: 1.6rem;
+    border:var(--border);
+    border-radius: .5rem;
+    padding:1rem 1.2rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.loginpage-form-container form .checkbox{
+    
+    
+    gap:1rem;
+    padding:1rem 2rem;
+    align-items: baseline;
+}
+.checkbox #remember-me{
+    position: relative;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    cursor: pointer;
+    left:'3px';
+    
+}
+.loginpage-form-container form .checkbox label{
+    position: relative;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    cursor: pointer;
+    left:'3px'
+}
+
+.loginpage-form-container form .btn{
+    text-align: center;
+    width:100%;
+    margin:1.5rem 0;
+}
+
+.loginpage-form-container form p{
+    padding-top: .8rem;
+    color:var(--light-color);
+    font-size: 1.5rem;
+}
+
+.loginpage-form-container form p a{
+    color:var(--green);
+    text-decoration: underline;
+}
+.finish-button-wrapper{position:relative;bottom:90px;z-index:10;width:inherit;height:90px;background-color:transparent;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.genres .finish-button-wrapper .finish-button{border-radius:3px;color:#fff;height:44px;width:188px;border-radius:20px}.onboardingModal.genres .finish-button-wrapper .finish-button .disabled{background:#eee;pointer-events:none}
+.option{margin-left:35px;color:#6f6f6f;font-size:14px;font-weight:600;cursor:pointer;-webkit-transition:.2s all ease;transition:.2s all ease;position:relative}
